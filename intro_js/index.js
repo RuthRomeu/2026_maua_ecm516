@@ -23,3 +23,17 @@ console.log(n4) */
 console.log(1 === '1') */
 
 // evitar usar o '==', usar '===' no lugar
+
+v1 [10, 8] // List <Object> v1 = new ArrayList <>[];
+console.log(v1.length)
+v1[0] = 2
+console.log(v1.length)
+v1[1] = 'abc'
+console.log(v1.length)
+v1[10] = 'Joao'
+console.log(v1.length)
+console.log(v1)
+for(let i = 0; i < v1.length; i++){
+    console.log(v1(i))
+}
+
