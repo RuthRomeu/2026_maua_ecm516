@@ -23,7 +23,7 @@ console.log(n4) */
 console.log(1 === '1') */
 
 // evitar usar o '==', usar '===' no lugar
-
+/* 
 v1 [10, 8] // List <Object> v1 = new ArrayList <>[];
 console.log(v1.length)
 v1[0] = 2
@@ -36,4 +36,29 @@ console.log(v1)
 for(let i = 0; i < v1.length; i++){
     console.log(v1(i))
 }
+ */
+/* function hello(){
+    console.log('Oi')
+}
 
+hello()
+function hello(nome){
+    console.log('Oi', $nome)
+}
+
+hello('Maria') */
+
+/* const triplo = function(n = 5){
+    return 3 * n
+}
+
+console.log(triplo)
+console.log(triplo, 10) */
+
+/* const falarOi = () => {console.log('Oi')}
+falarOi() */
+
+const falarOi = nome => console.log('Oi, $(nome)')
+falarOi('Maria')
+
+const somar = (a, b) => a+b
