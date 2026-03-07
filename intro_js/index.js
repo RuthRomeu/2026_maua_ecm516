@@ -58,7 +58,32 @@ console.log(triplo, 10) */
 /* const falarOi = () => {console.log('Oi')}
 falarOi() */
 
-const falarOi = nome => console.log('Oi, $(nome)')
+/* const falarOi = nome => console.log('Oi, $(nome)')
 falarOi('Maria')
 
-const somar = (a, b) => a+b
+const somar = (a, b) => a+b */
+
+//JSQN: JavaScript Object Notation
+//Uma pessoa se chama Maria com 21 anos mora na rua B, número 50
+let pessoa = {
+    nome: 'Maria',
+    idade: 21,
+    endereco: {
+        logradouro: 'Rua B',
+        numero:50
+    }
+}
+console.log(pessoa.endereco.logradouro)
+console.log(pessoa['endereco']['numero'])
+console.log(pessoa.endereco['logradouro'])
+console.log(pessoa.['endereco'].numero)
+console.log(pessoa.endereco)
+
+// Uma pessoa que se chama João e tem 17 anos
+
+/* let pessoa = {
+    nome: 'João',
+    idade: 17
+}
+console.log(pessoa.nome)
+console.log(pessoa['idade']) */
